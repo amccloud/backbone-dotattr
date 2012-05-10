@@ -4,6 +4,8 @@ Access deep Backbone.js model attributes with dot-syntax.
 ## Download ##
 https://raw.github.com/amccloud/backbone-dotattr/master/backbone-dotattr.js
 
+[![Build Status](https://secure.travis-ci.org/amccloud/backbone-dotattr.png)](http://travis-ci.org/amccloud/backbone-dotattr])
+
 ## Example ##
 ```javascript
 var song = new Backbone.Model({
