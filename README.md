@@ -25,6 +25,6 @@ song.get('title') // "Lucy In The Sky With Diamonds"
 ```
 
 ## Supported Methods ##
-    - get
-    - escape
-    - has
+- get
+- escape
+- has
