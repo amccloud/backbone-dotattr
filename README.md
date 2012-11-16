@@ -22,6 +22,9 @@ song.get('album.release.year'); // "1987"
 
 // Regular attributes
 song.get('title') // "Lucy In The Sky With Diamonds"
+
+// Non-existent attributes will not throw JS errors
+song.get('composer.name'); // undefined
 ```
 
 ## Supported Methods ##
