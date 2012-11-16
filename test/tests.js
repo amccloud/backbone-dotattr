@@ -23,3 +23,15 @@ test("has model attribute", function() {
     ok(song.has('album.title'));
     ok(song.has('album.release.year'));
 });
+
+test("has non-existent attributes", function() {
+    strictEqual(song.has('notpresent'), false);
+    strictEqual(song.has('notpresent.title'), false);
+    strictEqual(song.has('notpresent.release.year'), false);
+});
+
+test("get non-existent model attribute", function() {
+    strictEqual(song.get('notpresent'), undefined);
+    strictEqual(song.get('notpresent.title'), undefined);
+    strictEqual(song.get('notpresent.release.year'), undefined);
+});
